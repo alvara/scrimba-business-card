@@ -7,7 +7,8 @@ export default function Nav() {
   return (
     <nav>
       <h1>Jesse Alvarado</h1>
-      <h3>Frontend Developer</h3>
+      <div className='subtitle'>Frontend Developer</div>
+      <p>jessealvarado.com</p>
 
       <a className='btn'><FontAwesomeIcon icon={faEnvelope} />Email</a>
       <a className='btn btn-primary'><FontAwesomeIcon icon={faLinkedin} />LinkedIn</a>
