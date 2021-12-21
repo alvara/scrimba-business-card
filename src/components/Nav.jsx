@@ -10,8 +10,10 @@ export default function Nav() {
       <div className='subtitle'>Frontend Developer</div>
       <p>jessealvarado.com</p>
 
-      <a className='btn'><FontAwesomeIcon icon={faEnvelope} />Email</a>
-      <a className='btn btn-primary'><FontAwesomeIcon icon={faLinkedin} />LinkedIn</a>
+      <div className='btn-group'>
+      <a className='btn'><FontAwesomeIcon icon={faEnvelope} className='icon'/>Email</a>
+      <a className='btn btn-primary'><FontAwesomeIcon icon={faLinkedin} className='icon'/>LinkedIn</a>
+      </div>
     </nav>
   )
 }
